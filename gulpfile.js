@@ -15,7 +15,7 @@ gulp.task('watch', ['sass:watch', 'scripts:watch', 'views:watch']);
 
 
 gulp.task('sass', function () {
-  return gulp.src(['./sass/globals/*.scss', './sass/pages/*.scss'])
+  return gulp.src(['./sass/variables/*.scss', './sass/mixins/*.scss', './sass/globals/*.scss', './sass/pages/*.scss'])
     .pipe(concat('bundle.min.css'))
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(gulp.dest('./public/stylesheets/'));

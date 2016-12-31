@@ -1,16 +1,16 @@
 extends layout
 
 block content
-  div(id="aboutme")
-    div(id="aboutme-image")
+  div#aboutme
+    div#aboutme-image
       img(src="http://www.umassems.org/assets/profile_photos/3/standardized/Todd_Morse_Photo-7e622181cd59e3d7d9a1ff9102a3f0400218e1eed47257f8b6e39f6a99822b11.jpg")
-    div(id="aboutme-writing")
+    div#aboutme-writing
       h2 About Me
       p The solicitor coppers a keystroke. Next to a relative chart multiplies the dashing coffee. The uniform approach cows our content clock. The consent enlarges a bedroom. Can our giving language whistle without a monkey? A scratched disguise succeeds without an ignorant controller. The solicitor coppers a keystroke. Next to a relative chart multiplies the dashing coffee. The uniform approach cows our content clock. The consent enlarges a bedroom. Can our giving language whistle without a monkey? A scratched disguise succeeds without an ignorant controller. The solicitor coppers a keystroke. Next to a relative chart multiplies the dashing coffee. The uniform approach cows our content clock. The consent enlarges a bedroom. Can our giving language whistle without a monkey? A scratched disguise succeeds without an ignorant controller.
-  div(id="sites")
+  div#sites.center-flex
     each site in index.sites
       div
         a(href=site.url target="_blank")
-          div(id=site.id)
+          div(id=site.id).site-box
             h3=site.name
             img(src=site.logo)

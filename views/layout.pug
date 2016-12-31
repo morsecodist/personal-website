@@ -7,10 +7,10 @@ html
     link(rel="stylesheet" type="text/css" href="stylesheets/bundle.min.css")
     script(src="js/app.min.js")
   body
-    div(id="navbar")
-      div(class="left")
+    div#navbar
+      div.left
         a(href="/")
           h1 Morse Codist
-      div(class="right")
-        a(href="/projects.html" class="pagelabel") Projects
+      div.right
+        a(href="/projects.html").pagelabel Projects
     block content

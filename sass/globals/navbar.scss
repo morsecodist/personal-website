@@ -1,0 +1,31 @@
+#navbar h1 {
+  font-family: raleway-semibold;
+  color: $off-white;
+}
+
+#navbar {
+  background-color: $main-blue;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+#navbar > div {
+  width: 50%;
+}
+
+#navbar > div.right {
+  text-align: right;
+}
+
+.pagelabel {
+  font-size: 24pt;
+  text-decoration: none;
+  padding: 10px;
+  color: $off-white;
+  font-family: raleway;
+}
+
+.pagelabel:hover {
+  background-color: darken($main-blue, 10);
+}

@@ -1,24 +1,22 @@
 extends layout
 
 block content
-  div(id="projects")
-    div(id="professional-projects")
-      h1 Professional
-      div(class="project-pannel")
+  div#projects
+    div#professional-projects
+      h1.section-title Professional
+      div.centerflex
         each project in projects.professional
-          div(class="spacer")
-          a(href=project.url target="_blank")
-            div(class="project")
-              h3=project.name
-              p=project.description
-          div(class="spacer")
-    div(id="class-projets")
-      h1 School
-      div(class="project-pannel")
+          div
+            a(href=project.url target="_blank")
+              div.project-box
+                h3=project.name
+                p=project.description
+    div#class-projets
+      h1.section-title School
+      div.center-flex
         each project in projects.school
-          div(class="spacer")
-          a(href=project.url target="_blank")
-            div(class="project")
-              h3=project.name
-              p=project.description
-          div(class="spacer")
+          div
+            a(href=project.url target="_blank")
+              div.project-box
+                h3=project.name
+                p=project.description

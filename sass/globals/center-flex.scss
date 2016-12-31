@@ -1,0 +1,12 @@
+div.center-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+div.center-flex > div {
+  text-align: center;
+  flex-grow: 1;
+  padding: 10px;
+}
