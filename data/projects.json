@@ -3,10 +3,19 @@
     {
       "name": "Umass EMS Website",
       "url": "https://github.com/morsecodist/umassemsapp",
-      "description": "An angular app with a google sheet backend for information and shift picking"
+      "description": "An angular app with a node.js and google sheet hybrid backend for information sharing and shift picking"
     }
   ],
   "school": [
-
+    {
+      "name": "Movie Review Naive Bayes Sentiment Classifier",
+      "url": "https://github.com/morsecodist/CS585_NaieveBayes_Sentiment",
+      "description": "A class project for CS585: Introduction to Natural Language Processing. A Naive Bayes classifier for sentiment analysis of movie reviews."
+    },
+    {
+      "name": "Structured Perceptron and Viterbi Part of Speech Tagger",
+      "url": "https://github.com/morsecodist/CS585_StructuredPerceptron_Viterbi_POStagger",
+      "description": "A class project for CS585: Introduction to Natural Language Processing. A Structured Perceptron Linear Classifier and Viterbi Decoder for Part of Speech Tagging."
+    }
   ]
 }
