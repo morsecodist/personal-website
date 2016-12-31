@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  div(id="projects")
+    div(id="professional-projects")
+      h1 Professional
+      div(class="project-pannel")
+        each project in projects.professional
+          div(class="spacer")
+          a(href=project.url target="_blank")
+            div(class="project")
+              h3=project.name
+              p=project.description
+          div(class="spacer")
+    div(id="class-projets")
+      h1 School
+      div(class="project-pannel")
+        each project in projects.school
+          div(class="spacer")
+          a(href=project.url target="_blank")
+            div(class="project")
+              h3=project.name
+              p=project.description
+          div(class="spacer")

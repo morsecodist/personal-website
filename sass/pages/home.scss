@@ -1,0 +1,137 @@
+@font-face {
+    font-family: raleway-semibold;
+    src: url(../assets/fonts/raleway/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(../assets/fonts/raleway/Raleway-Medium.ttf);
+}
+
+#navbar h1 {
+  font-family: raleway-semibold;
+  color: #e5e5e5;
+}
+
+#navbar {
+  background-color: #284370;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+#navbar > div {
+  width: 50%;
+}
+
+#navbar > div.right {
+  text-align: right;
+}
+
+.pagelabel {
+  font-size: 24pt;
+  text-decoration: none;
+  padding: 10px;
+  color: #e5e5e5;
+  font-family: raleway;
+}
+
+.pagelabel:hover {
+  background-color: darken(#284370, 10);
+}
+
+#aboutme {
+  padding: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+}
+
+#aboutme > div {
+  text-align: left;
+  margin: 10px;
+  font-family: raleway;
+}
+
+#aboutme-writing {
+  width: 100%;
+}
+
+#sites {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+#sites > div {
+  text-align: center;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+#sites > div > a > div {
+  border-radius: 3px;
+  width: 300px;
+  height: 160px;
+  text-align: center;
+  padding: 5px;
+  display: inline-block;
+}
+
+#sites > div > a > div > * {
+  margin: 5px;
+}
+
+#sites > div > a > div > h3 {
+  font-size: 24pt;
+  font-family: raleway;
+}
+
+#sites img {
+  height: 100px;
+  display: inline-block;
+}
+
+#github {
+  color: #222222;
+  background-color: #d18132;
+}
+
+#github:hover {
+  background-color: darken(#d18132, 10);
+}
+
+#github:active {
+  background-color: darken(#d18132, 15);
+}
+
+#stackoverflow {
+  color: black;
+  background-color: #cccccc;
+}
+
+#stackoverflow:hover {
+  background-color: darken(#cccccc, 10);
+}
+
+#stackoverflow:active {
+  background-color: darken(#cccccc, 15);
+}
+
+#linkedin {
+  color: white;
+  background-color: #333333;
+}
+
+#linkedin:hover {
+  background-color: darken(#333333, 10);
+}
+
+#linkedin:active {
+  background-color: darken(#333333, 15);
+}

@@ -1,0 +1,4 @@
+/node_modules/
+/public/stylesheets/
+/public/js/
+/public/**/*.html

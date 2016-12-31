@@ -1,0 +1,29 @@
+#projects {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: raleway-semibold;
+}
+
+.project-pannel {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.project {
+  border-radius: 5px;
+  width: 300px;
+  height: 160px;
+  background-color: #aaaaaa;
+  font-family: raleway;
+  padding: 10px;
+  display: inline-block;
+}
+
+.project > * {
+  margin: 10px;
+}

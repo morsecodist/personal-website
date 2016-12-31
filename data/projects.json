@@ -1,0 +1,12 @@
+{
+  "professional": [
+    {
+      "name": "Umass EMS Website",
+      "url": "https://github.com/morsecodist/umassemsapp",
+      "description": "An angular app with a google sheet backend for information and shift picking"
+    }
+  ],
+  "school": [
+
+  ]
+}

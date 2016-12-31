@@ -1,0 +1,22 @@
+{
+  "sites": [
+    {
+      "url": "http://stackoverflow.com/users/7224142/morsecodist",
+      "name": "Stack Overflow",
+      "id": "stackoverflow",
+      "logo": "https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.png?v=c78bd457575a"
+    },
+    {
+      "url": "https://github.com/morsecodist",
+      "name": "Github",
+      "id": "github",
+      "logo": "https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png"
+    },
+    {
+      "url": "https://www.linkedin.com/in/robert-morse-496a1b5b?trk=nav_responsive_tab_profile",
+      "name": "LinkedIn",
+      "id": "linkedin",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+    }
+  ]
+}
