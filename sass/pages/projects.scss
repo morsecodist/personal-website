@@ -8,15 +8,37 @@
 }
 
 .project-box {
-  border-radius: 5px;
-  width: 300px;
-  height: 160px;
+  border-radius: 2px;
+  width: 320px;
+  height: 180px;
   font-family: raleway;
   padding: 10px;
   display: inline-block;
-  @include hover-darken(#aaaaaa);
+
 }
 
 .project-box > * {
   margin: 10px;
+}
+
+.project-box.python {
+  @include hover-darken(#3572A5);
+  color: $off-white;
+}
+
+.project-box.octave {
+  @include hover-darken(#bb92ac);
+}
+
+.project-box.javascript {
+  @include hover-darken(#f1e05a);
+}
+
+.project-box.ruby {
+  @include hover-darken(#701516);
+  color: $off-white;
+}
+
+.project-box.jupyter {
+  @include hover-darken(#DA5B0B);
 }
