@@ -8,7 +8,7 @@ block content
         each project in projects.professional
           div
             a(href=project.url target="_blank")
-              div.project-box
+              div(class=project.language).project-box
                 h3=project.name
                 p=project.description
     div#class-projets
@@ -17,6 +17,6 @@ block content
         each project in projects.school
           div
             a(href=project.url target="_blank")
-              div.project-box
+              div(class=project.language).project-box
                 h3=project.name
                 p=project.description
