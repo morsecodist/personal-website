@@ -1,17 +1,27 @@
 #navbar h1 {
   font-family: raleway-semibold;
   color: $off-white;
+  display: inline;
+  transition: color 1s;
+}
+
+#navbar h1:hover {
+  color: darken($off-white, 40);
 }
 
 #navbar {
   background-color: $main-blue;
-  padding: 10px;
   display: flex;
   flex-direction: row;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid darken($main-blue, 5);
 }
 
 #navbar > div {
-  width: 50%;
+  flex-grow:1;
+  padding: 10px;
 }
 
 #navbar > div.right {
@@ -28,4 +38,8 @@
 
 .pagelabel:hover {
   background-color: darken($main-blue, 10);
+}
+
+#content {
+  margin-top: 57px;
 }
