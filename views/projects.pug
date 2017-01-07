@@ -11,6 +11,15 @@ block content
               div(class=project.language).project-box
                 h3=project.name
                 p=project.description
+    div#opensource
+      h1.section-title Open Source Contributions
+      div.center-flex
+        each project in projects.opensource
+          div
+            a(href=project.url target="_blank")
+              div(class=project.language).project-box
+                h3=project.name
+                p=project.description
     div#class-projets
       h1.section-title School
       div.center-flex
