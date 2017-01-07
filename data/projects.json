@@ -7,6 +7,12 @@
       "language": "javascript"
     },
     {
+      "name": "UMass EMS Backend",
+      "url": "https://github.com/morsecodist/umassemsapp-backend",
+      "description": "A backend and RESTful API for the UMass EMS website. Caches google sheets data and serves requests with redis.",
+      "language": "javascript"
+    },
+    {
       "name": "Genetic Neural Network Trainer",
       "url": "https://github.com/morsecodist/Genetic-Neural-Network-Optimizer",
       "description": "A genetic neural network trainer written in GNU Octave",
