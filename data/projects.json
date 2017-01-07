@@ -1,21 +1,62 @@
 {
   "professional": [
     {
-      "name": "Umass EMS Website",
+      "name": "UMass EMS Website",
       "url": "https://github.com/morsecodist/umassemsapp",
-      "description": "An angular app with a node.js and google sheet hybrid backend for information sharing and shift picking"
+      "description": "An angular app with a node.js and google sheet hybrid backend for information sharing and shift picking",
+      "language": "javascript"
+    },
+    {
+      "name": "Genetic Neural Network Trainer",
+      "url": "https://github.com/morsecodist/Genetic-Neural-Network-Optimizer",
+      "description": "A genetic neural network trainer written in GNU Octave",
+      "language": "octave"
+    },
+    {
+      "name": "UMass EMS Ruby on Rails Website",
+      "url": "https://github.com/morsecodist/umassems_rails_app",
+      "description": "A Ruby on Rails app with accounts, user roles, and file uploads. Not in production due to hosting and maintenance costs.",
+      "language": "ruby"
+    },
+    {
+      "name": "FoldEco Error Classifier",
+      "url": "https://github.com/morsecodist/FoldEco-Error-Analysis",
+      "description": "A Jupyter notebook to analyze which values cause errors in the FoldEco protein folding simulator.",
+      "language": "jupyter"
+    },
+    {
+      "name": "Personal Website",
+      "url": "",
+      "description": "This website. A personal website to serve as a central hub for my various accounts as well as showcase my experience and the projects I have completed.",
+      "language": "css"
     }
   ],
   "school": [
     {
       "name": "Movie Review Naive Bayes Sentiment Classifier",
-      "url": "https://github.com/morsecodist/CS585_NaieveBayes_Sentiment",
-      "description": "A class project for CS585: Introduction to Natural Language Processing. A Naive Bayes classifier for sentiment analysis of movie reviews."
+      "url": "https://github.com/morsecodist/CS_585_Naive_Bayes_Sentiment_Classifier",
+      "description": "A class project for CS585: Introduction to Natural Language Processing. A Naive Bayes classifier for sentiment analysis of movie reviews.",
+      "language": "python"
     },
     {
       "name": "Structured Perceptron and Viterbi Part of Speech Tagger",
-      "url": "https://github.com/morsecodist/CS585_StructuredPerceptron_Viterbi_POStagger",
-      "description": "A class project for CS585: Introduction to Natural Language Processing. A Structured Perceptron Linear Classifier and Viterbi Decoder for Part of Speech Tagging."
+      "url": "https://github.com/morsecodist/CS585_Structured_Perceptron_Viterbi_POS_tagger",
+      "description": "A class project for CS585: Introduction to Natural Language Processing. A Structured Perceptron Linear Classifier and Viterbi Decoder for Part of Speech Tagging.",
+      "language": "python"
+    },
+    {
+      "name": "Activity CLassification",
+      "url": "https://github.com/morsecodist/CS390MB_Activity_Classifer",
+      "description": "A class project for CS390MB: Mobile Health Sensing and Analytics. A scikit-learn decision tree classifier for classifying activities: Sitting, Walking, Running, Jumping.",
+      "language": "python"
+    }
+  ],
+  "opensource": [
+    {
+      "name": "NeuralNets.jl",
+      "url": "https://github.com/anj1/NeuralNets.jl",
+      "description": "Generic artificial neural networks in Julia",
+      "language": "julia"
     }
   ]
 }
