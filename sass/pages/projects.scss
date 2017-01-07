@@ -42,3 +42,12 @@
 .project-box.jupyter {
   @include hover-darken(#DA5B0B);
 }
+
+.project-box.julia {
+  @include hover-darken(#a270ba);
+}
+
+.project-box.css {
+  @include hover-darken(#563d7c);
+  color: $off-white;
+}
