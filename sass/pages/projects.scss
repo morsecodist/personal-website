@@ -51,3 +51,8 @@
   @include hover-darken(#563d7c);
   color: $off-white;
 }
+
+.project-box.typescript {
+  @include hover-darken(#2b7489);
+  color: $off-white;
+}

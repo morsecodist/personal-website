@@ -31,8 +31,14 @@
       "language": "jupyter"
     },
     {
+      "name": "Express Typescript Accounts Boilerplate",
+      "url": "https://github.com/morsecodist/express-typescript-accounts-boilerplate",
+      "description": "A very simple app with account creation, login, and updating. Intended for modification to build a larger app with accounts.",
+      "language": "typescript"
+    },
+    {
       "name": "Personal Website",
-      "url": "",
+      "url": "https://github.com/morsecodist/personal-website",
       "description": "This website. A personal website to serve as a central hub for my various accounts as well as showcase my experience and the projects I have completed.",
       "language": "css"
     }
