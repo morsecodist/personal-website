@@ -5,11 +5,22 @@
   display: flex;
 }
 
-#aboutme img {
-  width: 250px;
+@media screen and (max-width: 1000px) {
+    #aboutme  {
+        flex-direction: column;
+    }
 }
 
-#aboutme > div {
+#aboutme-image {
+  text-align: center;
+}
+
+#aboutme img {
+  width: 250px;
+  display: inline-block;
+}
+
+#aboutme-writing {
   text-align: left;
   margin: 10px;
   font-family: raleway;

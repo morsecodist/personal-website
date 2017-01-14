@@ -19,6 +19,20 @@
   border-bottom: 1px solid darken($main-blue, 5);
 }
 
+@media screen and (max-aspect-ratio: 2/3) {
+  #navbar h1 {
+    font-size: 50px;
+  }
+
+  a.pagelabel {
+    font-size: 50px;
+  }
+
+  div#content {
+    margin-top: 81px;
+  }
+}
+
 #navbar > div {
   flex-grow:1;
   padding: 10px;
